@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="proline <= 730.0\ngini = 0.65\nsamples = 84\nvalue = [51, 38, 30]\nclass = class_0", fillcolor="#fbebdf"] ;
-1 [label="flavanoids <= 1.24\ngini = 0.51\nsamples = 48\nvalue = [2, 36, 25]\nclass = class_1", fillcolor="#c6f7db"] ;
+0 [label="alcalinity_of_ash <= 17.9\ngini = 0.63\nsamples = 78\nvalue = [36, 57, 26]\nclass = class_1", fillcolor="#cdf8df"] ;
+1 [label="alcohol <= 12.68\ngini = 0.38\nsamples = 26\nvalue = [31, 9, 1]\nclass = class_0", fillcolor="#eda877"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="gini = 0.14\nsamples = 20\nvalue = [0, 2, 25]\nclass = class_2", fillcolor="#8b49e7"] ;
+2 [label="gini = 0.18\nsamples = 5\nvalue = [0, 9, 1]\nclass = class_1", fillcolor="#4fe88f"] ;
 1 -> 2 ;
-3 [label="gini = 0.1\nsamples = 28\nvalue = [2, 34, 0]\nclass = class_1", fillcolor="#45e788"] ;
+3 [label="gini = 0.0\nsamples = 21\nvalue = [31, 0, 0]\nclass = class_0", fillcolor="#e58139"] ;
 1 -> 3 ;
-4 [label="flavanoids <= 2.17\ngini = 0.23\nsamples = 36\nvalue = [49, 2, 5]\nclass = class_0", fillcolor="#e99254"] ;
+4 [label="protein_concentration <= 2.0\ngini = 0.51\nsamples = 52\nvalue = [5, 48, 25]\nclass = class_1", fillcolor="#a9f4c8"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label="gini = 0.41\nsamples = 4\nvalue = [0, 2, 5]\nclass = class_2", fillcolor="#b388ef"] ;
+5 [label="gini = 0.0\nsamples = 15\nvalue = [0, 0, 23]\nclass = class_2", fillcolor="#8139e5"] ;
 4 -> 5 ;
-6 [label="gini = 0.0\nsamples = 32\nvalue = [49, 0, 0]\nclass = class_0", fillcolor="#e58139"] ;
+6 [label="gini = 0.23\nsamples = 37\nvalue = [5, 48, 2]\nclass = class_1", fillcolor="#55e993"] ;
 4 -> 6 ;
 }
