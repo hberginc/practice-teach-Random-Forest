@@ -8,7 +8,7 @@ Students will be able to ...
 
 - **explain and build** a classification random forest
 - **discuss** the differences between bagging and a random forest
-- **interpret** how tuning “n_estimators” will effect a random forest model’s variance
+- **interpret** how tuning “n_estimators” will effect a random forest model’s accuracy
 
-Expect to work through parts 1, 2 and 3 in the provided notebook and part 4 is extra as a way for students to access a start of feature importance to be successful in pair.md assignment. 
+Expect to work through parts 1, 2 and 3 in the provided notebook and part 4 is extra as a way for students to access sections of pair.md assignment that will not be covered in lecture. 
 
